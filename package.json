@@ -1,0 +1,16 @@
+{
+  "name": "classeur-personnel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Un index par collection pour mes notes et mes affaires. Je conserve mes secrets sous le nom fonds-de-tiroir.",
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test.mjs",
+    "demo": "node main.mjs example.json exemple-sortie.md"
+  }
+}
+
